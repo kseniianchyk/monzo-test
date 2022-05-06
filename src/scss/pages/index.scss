@@ -1,6 +1,6 @@
 // .main
 .main {
-	background-image: url('images/main-bg.jpg');
+	background-image: url('../images/main-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -450,7 +450,7 @@
 
 			&.was-validated {
 				.form-control:invalid {
-					background-image: url('images/Close_round_light.svg');
+					background-image: url('../images/Close_round_light.svg');
 					border-color: #DF4E3C;
 
 					&:focus {
@@ -460,7 +460,7 @@
 				}
 
 				.form-control:valid {
-					background-image: url('images/Done_light.svg');
+					background-image: url('../images/Done_light.svg');
 					border-color: #507A36;
 
 					&:focus {
