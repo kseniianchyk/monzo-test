@@ -1,0 +1,48 @@
+//mixins
+@import 'mixins';
+
+//variable
+@import 'variables';
+
+//fonts
+@import 'fonts';
+
+//переменные
+$fontFamily: 'NotoSans-Regular';
+
+//базовые стили и классы
+body {
+  font-family: $fontFamily;
+  color: $bace-color;
+  background-color: $bace-bg-color;
+
+  &._js-lock-scroll {
+    overflow: hidden;
+  }
+}
+
+// скрытие
+.dn {
+  display: none !important;
+}
+
+// сетка
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+// главная обёртка
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+//стили элементов страниц
+@import 'block/header';
+@import 'block/footer';
+
+//стили страниц
+@import 'pages/index';

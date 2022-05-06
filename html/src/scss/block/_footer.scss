@@ -1,0 +1,9 @@
+// footer-wr
+.footer-wr {
+	background-color: $black;
+	padding: 37px 0 36px 0;
+
+	@media (max-width: 524px) {
+		padding: 20px 0;
+	}
+}

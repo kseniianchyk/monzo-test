@@ -1,0 +1,35 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Start Gulp",
+  "private": true,
+  "license": "GNU General Public License (GPL)",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-imagemin": "7.1.0",
+    "gulp-media-queries-splitter": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-responsive": "latest",
+    "gulp-sass": "latest",
+    "sass": "^1.37.5",
+    "transform-runtime": "0.0.0",
+    "webpack-stream": "^6.1.2",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "air-datepicker": "^3.0.1",
+    "bootstrap": "^5.1.1"
+  }
+}
